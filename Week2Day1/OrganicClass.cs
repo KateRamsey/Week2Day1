@@ -3,6 +3,12 @@
 public abstract class IsOrganic
 {
 	public bool ASleep { get; set;}
+
+    public bool IsAsleep()
+    {
+        return ASleep;
+    }
+
     public void GoToSleep()
     {
         this.ASleep = true;

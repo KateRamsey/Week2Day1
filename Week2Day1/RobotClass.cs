@@ -32,4 +32,8 @@ public class Robot: IAllCritters
         Console.WriteLine("Greetings, I am a robot");
     }
 
+    public bool IsAsleep()
+    {
+        return !Running;
+    }
 }
