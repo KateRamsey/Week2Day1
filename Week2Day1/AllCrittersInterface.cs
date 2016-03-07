@@ -1,6 +1,6 @@
 ﻿using System;
 
-public interface IAllCritters
+public interface ICritters
 {
     bool IsASleep();
     void DisplayName();

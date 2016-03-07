@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Panda : IsOrganic, ICritters
+public class Panda : Organic, ICritters
 {
     public void DisplayName()
     {

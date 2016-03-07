@@ -1,6 +1,6 @@
 ﻿using System;
 
-public abstract class IsOrganic
+public abstract class Organic
 {
 	public bool ASleep { get; set;}
 

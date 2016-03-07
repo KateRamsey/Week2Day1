@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Human : IsOrganic, ICritters
+public class Human : Organic, ICritters
 {
     public void DisplayName()
     {

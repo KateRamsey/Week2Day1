@@ -10,7 +10,14 @@ namespace Week2Day1
     {
         static void Main(string[] args)
         {
-            Robot
+            Robot Bot = new Robot();
+            Human Person = new Human();
+            Panda BlackAndWhite = new Panda();
+
+            List<ICritters> AllCritters = new List<ICritters> {Bot, Person, BlackAndWhite};
+
+            List<Organic> Organics = new List<Organic> {BlackAndWhite, Person};
+            
             Console.ReadLine();
         }
     }
