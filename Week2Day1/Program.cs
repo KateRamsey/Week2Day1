@@ -16,6 +16,13 @@ namespace Week2Day1
 
             List<ICritters> AllCritters = new List<ICritters> {Bot, Person, BlackAndWhite};
 
+            foreach(ICritters c in AllCritters)
+            {
+                c.DisplayName();
+                Console.Write($"{c.Name} says ");
+                c.DisplayGreeting();
+            }
+
             List<Organic> Organics = new List<Organic> {BlackAndWhite, Person};
             
             Console.ReadLine();

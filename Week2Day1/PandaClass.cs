@@ -5,6 +5,7 @@ public class Panda : Organic, ICritters
     public Panda(string name)
     {
         Name = name;
+        ASleep = false;
     }
     public void DisplayName()
     {

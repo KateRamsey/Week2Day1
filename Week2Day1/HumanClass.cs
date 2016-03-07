@@ -5,6 +5,7 @@ public class Human : Organic, ICritters
     public Human(string name)
     {
         Name = name;
+        ASleep = false;
     }
     public void DisplayName()
     {
