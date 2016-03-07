@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Robot
+public class Robot: IAllCritters
 {
     public Robot()
     {

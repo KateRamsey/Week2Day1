@@ -1,8 +1,6 @@
 ﻿using System;
 
-public class Panda
+public class Panda : IsOrganic, IAllCritters
 {
-	public Panda()
-	{
-	}
+
 }

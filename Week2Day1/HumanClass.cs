@@ -1,8 +1,6 @@
 ﻿using System;
 
-public class Human
+public class Human : IsOrganic, IAllCritters
 {
-	public Human()
-	{
-	}
+
 }
