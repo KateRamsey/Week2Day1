@@ -22,4 +22,14 @@ public class Robot: IAllCritters
         this.Running = false;
     }
 
+    public void DisplayName()
+    {
+        Console.WriteLine($"My Name is {this.Name}");
+    }
+
+    public void DisplayGreeting()
+    {
+        Console.WriteLine("Greetings, I am a robot");
+    }
+
 }
