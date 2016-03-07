@@ -10,6 +10,8 @@ namespace Week2Day1
     {
         static void Main(string[] args)
         {
+            Robot
+            Console.ReadLine();
         }
     }
 }
