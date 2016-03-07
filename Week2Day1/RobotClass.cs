@@ -4,9 +4,9 @@ public class Robot: ICritters
 {
     public Robot(string name)
     {
-        this.Running = false;
-        this.IsTerminator = true;
-        this.Name = name;
+        Running = true;
+        IsTerminator = true;
+        Name = name;
     }
     public bool Running;
     public bool IsTerminator;

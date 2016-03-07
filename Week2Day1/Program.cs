@@ -21,10 +21,45 @@ namespace Week2Day1
                 c.DisplayName();
                 Console.Write($"{c.Name} says ");
                 c.DisplayGreeting();
+                Console.WriteLine($"{c.Name} is Asleep? {c.IsASleep()}");
+                Console.WriteLine();
             }
 
             List<Organic> Organics = new List<Organic> {BlackAndWhite, Person};
-            
+
+            foreach(Organic o in Organics)
+            {
+                o.Eat("Tacos");
+            }
+
+            Console.WriteLine();
+            if (Bot.IsTerminator)
+            {
+                Console.WriteLine($"{Bot.Name} is a terminator");
+            }
+
+            Bot.ShutDown();
+            Person.GoToSleep();
+            BlackAndWhite.GoToSleep();
+
+            foreach (ICritters c in AllCritters)
+            {
+                Console.WriteLine($"{c.Name} is Asleep? {c.IsASleep()}");
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
+
+            Bot.StartUp();
+            Person.WakeUp();
+            BlackAndWhite.WakeUp();
+
+            foreach (ICritters c in AllCritters)
+            {
+                Console.WriteLine($"{c.Name} is Asleep? {c.IsASleep()}");
+                Console.WriteLine();
+            }
+
             Console.ReadLine();
         }
     }
