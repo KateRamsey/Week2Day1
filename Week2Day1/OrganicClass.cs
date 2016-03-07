@@ -4,7 +4,7 @@ public abstract class Organic
 {
 	public bool ASleep { get; set;}
 
-    public bool IsAsleep()
+    public bool IsASleep()
     {
         return ASleep;
     }

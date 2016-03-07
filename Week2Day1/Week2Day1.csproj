@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllCrittersInterface.cs" />
+    <Compile Include="HumanClass.cs" />
+    <Compile Include="OrganicClass.cs" />
+    <Compile Include="PandaClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RobotClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

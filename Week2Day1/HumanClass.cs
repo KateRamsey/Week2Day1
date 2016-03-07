@@ -11,4 +11,6 @@ public class Human : Organic, ICritters
     {
         Console.WriteLine("So happy to see you!");
     }
+
+    public string Name { get; set; }
 }

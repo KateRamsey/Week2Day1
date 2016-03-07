@@ -11,5 +11,6 @@ public class Panda : Organic, ICritters
     {
         Console.WriteLine("Nom Nom, hello, I am eating bamboo");
     }
+    public string Name { get; set; }
 
 }

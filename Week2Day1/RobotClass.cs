@@ -2,13 +2,16 @@
 
 public class Robot: ICritters
 {
-    public Robot()
+    public Robot(string name)
     {
         this.Running = false;
         this.IsTerminator = true;
+        this.Name = name;
     }
     public bool Running;
     public bool IsTerminator;
+
+    public string Name { get; set; }
 
     public void StartUp()
     {
@@ -32,7 +35,7 @@ public class Robot: ICritters
         Console.WriteLine("Greetings, I am a robot");
     }
 
-    public bool IsAsleep()
+    public bool IsASleep()
     {
         return !Running;
     }
