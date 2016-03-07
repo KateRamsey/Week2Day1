@@ -10,9 +10,9 @@ namespace Week2Day1
     {
         static void Main(string[] args)
         {
-            Robot Bot = new Robot();
-            Human Person = new Human();
-            Panda BlackAndWhite = new Panda();
+            Robot Bot = new Robot("Bender");
+            Human Person = new Human("Kate");
+            Panda BlackAndWhite = new Panda("Joe Bear");
 
             List<ICritters> AllCritters = new List<ICritters> {Bot, Person, BlackAndWhite};
 

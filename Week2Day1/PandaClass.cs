@@ -2,6 +2,10 @@
 
 public class Panda : Organic, ICritters
 {
+    public Panda(string name)
+    {
+        Name = name;
+    }
     public void DisplayName()
     {
         Console.WriteLine($"My Name is {this.Name}");

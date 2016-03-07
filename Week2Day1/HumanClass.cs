@@ -2,6 +2,10 @@
 
 public class Human : Organic, ICritters
 {
+    public Human(string name)
+    {
+        Name = name;
+    }
     public void DisplayName()
     {
         Console.WriteLine($"My Name is {this.Name}");
